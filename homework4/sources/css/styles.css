@@ -1,0 +1,211 @@
+
+body{
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header{
+    background-color: rgba(0,0,0,.41);
+}
+header .content{
+    display: flex;
+    margin: auto;
+    padding: 20px 80px;  
+    max-width: 1366px;  
+    justify-content: space-between;
+    font-family: "Verdana";
+    color: rgb(255, 255, 255);
+}
+.right{
+    display: flex; 
+    justify-content: flex-end    
+}
+.icons{
+    display: flex;
+}
+.icons img{
+    margin-right: 24px;
+    size: auto;
+}
+.icons a{
+    background-image: url(../img/icons.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 24px;
+}
+a.calendar {
+    background-position: left top;
+    height: 21px;
+    width: 19px;
+}
+a.forum{
+    background-position: -46px top;
+    height: 20px;
+    width: 28px;
+}
+a.journey{
+    background-position: -102px top;
+    height: 20px;
+    width: 21px;
+}
+#logo{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.05;
+}
+.logSign{
+    display: flex;
+    white-space: nowrap;
+    font-size: 14px;
+}
+.logSign a{
+    text-decoration: none;
+    color:#3cb878
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+}
+.main .content{
+    height: 594px;
+    width: 444px;
+    background-image: url(../img/Background-main.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 322px;
+    margin: auto;
+    text-align: center;
+}
+.shape {
+    background-image: url(../img/shape.png);
+    position: absolute;
+    margin-top: 29px;
+}
+
+.signUpLogInBox{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-family: "Verdana";
+}   
+.signUpLogInBox p{
+    font-size: 20px;
+}
+.signUpLogInBox a{
+    font-size: 14px;
+    color:#3cb878;
+    text-decoration: none;
+    align-self: flex-end;
+}
+.between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social{
+    width: calc((100% - 8px)/2);
+    padding: 7px 0;
+    border-radius: 4px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social p{
+    color: white;
+    font-size: 16px;
+    font-family: "Verdana";
+    display: contents;
+}
+.facebook p::before{
+    content: url(../img/Rectangle.png);
+    margin-right: 17px;
+}
+.social img{
+    margin-right: 17px;
+}
+.facebook{
+    background-color: #2b54a5;
+}
+.google p::before{
+    content: url(../img/Rectangle.png);
+    margin-right: 23px;}
+.google img{
+    margin-right:9px;
+}
+.orBox{
+    margin-top: 29px;
+    margin-bottom: 13px;
+}
+.google{
+    background-color: #df4a32;
+}
+.inputBox{
+    height: 43px;
+    margin-bottom: 17px;
+}
+
+.terms{
+    display: flex;
+    margin-bottom: 25px;
+    font-family: "Verdana";
+    font-size: 14px;
+}
+.terms:hover{
+    cursor: pointer;
+}
+.terms a{
+    color:#3cb878;
+}
+input.check {
+    width : 20px;
+    height : 20px;
+    margin: 0 10px 0 0; 
+}
+.input{
+    width: 100%;
+    max-width: 290px;
+    height: calc(100% - 6px);
+    font-family: "Verdana";
+    font-size: 14px;
+    color:black;
+    padding:  0 16px;
+    border: 1px solid #bebebe; 
+    border-radius: 3px;
+    
+}
+.input:focus{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.1), 0 10px 10px rgba(0,0,0,0.1);
+    outline: none !important;
+    border: 1px solid #bebebe; 
+    border-radius: 3px;
+}
+input::placeholder{
+    color:#bebebe;
+}
+.Jason{
+    color: black;
+}
+.createAccButton{
+    width: 100%;
+    padding: 13px 0;
+    background-color: #3cb878;
+    color: white;
+    font-family: "Verdana";
+    font-size: 16px;
+    border: 0;
+    border-radius: 3px;
+}
+.createAccButton:hover{
+    cursor: pointer;
+}

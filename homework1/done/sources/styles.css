@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');	
+@font-face {
+	font-family: "GothamRoundedBold";
+	src: local('GothamRoundedBold'), local("Gotham Rounded Bold")
+	url("GothamRoundedBold.otf") format("trutype"),
+	url('Gotham Rounded Bold.otf;') format('truetype');
+	font-style: normal; 
+	font-weight: normal; 
+	} 
+body{
+    margin: auto;
+    text-align: center;
+}
+header a{
+    margin:32px;
+    text-decoration: none;
+    color: #54b9a6;
+    letter-spacing: 3px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+header .container{
+    padding: 32px 0;
+}
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+#mainImg{
+    width: 100%;
+    height: 100%;
+}
+main .text{
+    max-width: 1280px;
+    background-color: #f5f6f7;
+    padding-top: 51px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+main .text h1{
+    font-size: 22px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+main .text p{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.625;
+    margin-bottom: 35px;  
+    text-indent: 50px;
+}
+main button{
+    font-size: 12px;
+    font-family: "Gotham Rounded";
+    line-height: 1.667;
+    font-weight: bold;
+    padding: 20px 44px;
+    background-color: #16a085;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+}
+footer p{
+    text-align: right;
+    font-size: 16px;
+    font-family: "Roboto";
+    line-height: 1.2;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-right: 100px;
+}
+footer .container{
+    padding: 46px 0;
+    display: flex;
+    justify-content: space-between;
+}
+footer .left{
+    margin-left:20px;
+}
+footer .left a{
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(55, 55, 55);
+    line-height: 1.2;
+}
+footer .palka::after{
+    content: "|";
+    color: #16a085 ;
+    margin: 14px;
+}
+
+  
+
+  
+  

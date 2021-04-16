@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: local('Myriad Pro Regular'), local('Myriad-Pro-Regular'),
+        url('../fonts/MyriadPro-Regular.woff2') format('woff2'),
+        url('../fonts/MyriadPro-Regular.woff') format('woff'),
+        url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+.container{
+	max-width: 1280px;
+	margin: auto;
+}
+.logo{
+	padding:  60px 0;
+	font-size: 80px;
+	font-family: "Myriad Pro";
+	color: rgb(0, 0, 0);
+	line-height: 1.2;
+}
+.logo::after{
+	content: "mda.js";
+	color: #4bcaff;
+}
+header .panel{
+	background-color: #35444f;
+	text-align: center;
+	padding: 25px 0;
+}
+header .panel a{
+	font-size: 24px;
+	font-family: "Myriad Pro";
+	color: rgb(255, 255, 255);
+	line-height: 1.2;
+	text-decoration: none;
+	padding: 25px 40px;
+}
+header .panel a:hover{
+	background-color: #222f3a;
+	border-left: 1px solid #818181;
+	border-right: 1px solid #818181;
+}
+main .container{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+.text{
+	max-width: 822px;
+	margin-left: 30px;
+}
+main nav{
+	display: flex;
+    flex-direction: column;
+	border: solid 1px black;
+	height: calc(88px*5);
+	width: 345px;
+}
+main nav a{
+	text-decoration: none;
+	font-family: "Myriad Pro";
+	font-size: 30px;
+	color: rgb(53, 68, 79);
+	line-height: 2.963;
+	padding-left: 40px;
+}
+main nav a:hover{
+	background-color: #dbdbdb;
+	padding-left: 70px;
+}
+.text p{
+	width: 823px;
+	font-size: 18px;
+	font-family: "Myriad Pro";
+	color: rgb(44, 44, 44);
+	line-height: 1.333;
+	margin-bottom: 30px;
+}
+.kartinka {
+	padding: 74px 280px;
+	border: solid 1px black;
+	margin-bottom: 50px;
+}
+.kartinka img:hover{transform: scale(1.2); }
+
+footer .container{
+	display: flex;
+    justify-content: space-between;
+	background-color: #b4b7ba;
+}
+footer nav{
+	padding: 20px 30px;	
+}
+footer nav a{
+	font-size: 28px;
+	margin: 15px;
+	font-family: "Myriad Pro";
+	color: rgb(12, 25, 39);
+	text-decoration: none;
+}
+footer nav a:hover{
+	text-decoration: underline;
+	color :#3181a6;
+}
+.copyright {
+	font-size: 24px;
+	font-family: "Myriad Pro";
+	color: rgb(1, 1, 1);
+	padding: 20px 0;
+	text-align: left;
+	margin-right: 35px;
+}
+  
+  

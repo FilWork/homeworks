@@ -1,0 +1,138 @@
+
+body{
+	background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.container{
+    text-align: center;
+    margin: auto;
+    width: 1366px;
+}
+header .container{
+    margin-top: 49px;
+}
+header .container .left{
+    float: left;
+    margin-left: 155px;
+}
+header .container .right{
+    float: right;
+    margin-right: 145px;
+}
+header .container .left .img, .logoName {
+    float: left;
+}
+.img{
+    background: url("../img/logo.png") no-repeat 50% 50%;
+    display: block;
+    width: 46px; 
+    height: 44px; 
+}
+header .container .left:hover .img{
+    background: url("../img/logoOrange.png") no-repeat 50% 50%;
+}
+header .container .left:hover p{
+    color: #c5531d;
+}
+.logoName{
+    margin-left: 15px;
+}
+.logoName p{
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+#milan{
+    font-size: 29px;
+    font-family: "Verdana";
+    line-height: 0.96;
+}
+#holidays{
+    font-size: 18px;
+    font-family: "Verdana";
+    line-height: 1.167;
+}
+.right p{
+    font-size: 18px;
+    font-family: "Verdana";
+    color: rgb(255, 255, 255);
+    line-height: 1.167;
+    text-align: right;
+}
+main .container{
+    margin-top: 48px;
+}
+.picturesBox{
+    float: left;
+
+}
+main .container{
+    width: 1064px;
+}
+.picturesBox:nth-child(2),.picturesBox:nth-child(5){
+    margin: 0 69px;
+}
+.picturesBox p{
+    margin-top: 22px;
+    margin-bottom: 50px;
+}
+.picturesBox a{
+    font-size: 18px;
+    font-family: "Verdana";
+    color: rgb(255, 255, 255);
+    line-height: 1.167;
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+}
+footer p{
+    color:white;
+    font-size: 12px;
+    line-height: 1.75;
+}
+.hover{
+    background-image: url(../img/Hover.png);  
+    visibility: hidden;
+    position: absolute;
+	bottom: 0;
+	left:0;
+    width: 100%;
+    opacity: 0;
+    height: 63px;
+}
+.kek{
+    position: relative;
+}
+#from{
+    float: left;
+    margin: 0;
+    margin-left: 20px;
+    margin-top:15px;
+    font-size: 10px;
+    text-align: left;
+}
+#price{
+    font-size: 20px;
+}
+.hover p{
+    color:white;
+}
+.kek:hover .hover{
+    visibility: visible;
+    opacity: 1;
+}
+.kek:hover + .textLink a{
+    color: #c5531d;
+}
+#rightSpan p::after{
+    margin-left: 15px;
+    content: ">";
+}
+#rightSpan a{
+    text-decoration: none;
+    color:#fff;
+    text-align: right;
+}
+  
